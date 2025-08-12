@@ -1,0 +1,1 @@
+print("Magandang Hapon\n \t \t BSIT IB")
