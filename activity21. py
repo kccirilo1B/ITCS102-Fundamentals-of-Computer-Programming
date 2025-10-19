@@ -1,0 +1,9 @@
+TiffYah = True
+while TiffYah == True:
+    sah = input("Kakain pa ba si Tiffany? (y/n) ")
+    if sah == "y":
+        print("sige, kakain pa")
+        continue
+    else:
+        print("edi huwag na")
+        break
