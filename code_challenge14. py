@@ -1,0 +1,13 @@
+anime_list = []
+kc = True 
+
+while kc == True:
+    title = input("Enter anime name (type 'exit' to stop): ")
+    if title.lower() == 'exit':
+        break
+    anime_list.append(title)
+    print(f"'{title}' has been added to your anime list.")
+print("You have exited the anime entry program.")
+print("Your anime list includes:")
+for anime in anime_list:
+    print(f"- {anime}") 
