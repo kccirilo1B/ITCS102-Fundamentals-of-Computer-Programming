@@ -1,5 +1,5 @@
 def Daniel(pogi):
     print("Hi", pogi, "angas mo")
 
-def Caamod(sah):
+def Camacho(sah):
     print("Yow", sah, "mas maangas ka")
