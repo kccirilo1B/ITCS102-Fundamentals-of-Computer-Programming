@@ -1,0 +1,8 @@
+profile = {"name": "KC", "age": 18, "nationality": "Filipino", "bestfriend": "Tiffany"}
+print(profile)
+
+profile["pera"] = "0 pesos"
+print(profile["pera"])
+
+profile.pop("bestfriend")
+print(profile)
