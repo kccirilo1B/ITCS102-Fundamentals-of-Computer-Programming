@@ -1,0 +1,9 @@
+from activity24_1 import Daniel, Camacho
+
+def number():
+    print("Daniel, "is pogi")
+    print("1 + 1")
+
+number()
+Daniel('Mabait')
+Camacho('Camille')
