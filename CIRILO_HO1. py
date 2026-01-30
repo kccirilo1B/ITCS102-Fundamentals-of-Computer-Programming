@@ -1,0 +1,34 @@
+import os
+os.system('cls')
+
+input_word = input("What is your word? ")
+word_length = len(input_word)
+
+sum_numbers = 0
+num_collection = []
+
+for idx in range(word_length):
+    print("\nEnter the number here", idx+1, ":", end=" ")
+    num = input()
+    num = int(num)
+    num_collection.append(num)
+    sum_numbers += num
+
+def calc_average():
+    return round((sum_numbers / word_length), 2)
+
+def compare_values():
+    result = word_length > int(calc_average())
+    output_msg = ""
+    if result == True:
+        output_msg = "The WORD LENGTH is GREATER than the AVERAGE OF THE NUMBERS"
+    elif result == False:
+        output_msg = "The WORD LENGTH is LESS than the AVERAGE OF THE NUMBERS"
+    else:
+        output_msg = "The WORD LENGTH is EQUAL to the AVERAGE OF THE NUMBERS"
+    print(output_msg)
+
+print("\nThe average number of the numbers you entered is: ", str(calc_average()))
+print("\nThe length of your word is", word_length)
+print("\nYour list includes:", num_collection, "\n")
+compare_values()
